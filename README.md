@@ -35,8 +35,6 @@
 ├── results           
 
 
-
-
 ## Data Source
 * Get access to MIMIC III by going over to https://physionet.org/content/mimiciii-demo/1.4/
 * Once granted access, download NOTEEVENTS.csv.gz which has all the unstructred patient notes in MIMIC III
