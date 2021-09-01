@@ -1,0 +1,20 @@
+# Things updated along the way
+1) udpated cleaning strategy
+2) updated split from 70 15 15 to 80 10 10
+3) shuffled and stratified at splitting
+4) new optimizer with additional params
+5) changed defaults for opti params and scheduler
+6) added truncation strategies
+
+
+# Tried but did not work
+1) tried incorporating bucketiterator with dataloaders but max lenth is 512 and mainly used all the time in our case so it would not work
+2) Tried weight balancing using smapler and modified loss function but no performance benefit. 
+So finally decided to use stratification while splitting the data.
+3) Tried head-tail-mixed approaches, did not have much time to optimzie them 
+4) Tried different optimzer but got lower performnance
+5) just training last layer did not help 
+6) epochs 1,2,3 and 4. 4 is way better performing for pubmedbert and 2 is better for bio and clinical
+but for consistency we kept epochs 4 for all model fine-tuning
+7) Tried hyperparemetrs from 3 different papaers to replicate but no significant results
+
