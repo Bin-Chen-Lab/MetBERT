@@ -14,25 +14,25 @@
 ## Project Structure
 
 ├── LICENSE
-├── README.md 
+├── README.md          <- The README for developers using this project.
 ├── data
-│   ├── annotations   
-│   ├── notevents      
-│   ├── processed     
+│   ├── annotations    <- Annotated data from third party sources.
+│   ├── notevents      <- Data from MIMIC III (Not actaully present)
+│   ├── processed      <- The final, canonical data sets for modeling consisting of 2-3 csvs
 |
-├── src              
+├── src                <- Source code files
 │   ├── preprocess.py       
 │   ├── model.py        
 │   ├── train_val.py      
 │   └── run.py            
 |
-├── models           
+├── models             <- Trained and serialized model (Best Performing)
 │
-├── notebooks
+├── notebooks          <- Different jupyter notebooks used for experminetation purposes (Beware code will be messy)
 │
-├── references    
+├── references         <- 
 │
-├── results           
+├── results            <- Generated results with classifcation metrics for all vlaidation and hyperparameter selections        
 
 
 ## Data Source
