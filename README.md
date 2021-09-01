@@ -1,5 +1,5 @@
 # MetBERT
-# Step by Step instruction for replicating results
+# Step by Step instructions for replicating results
 
 ## Requirements:
 
@@ -48,7 +48,7 @@ python3 run.py --epochs 4 \
     --aproach 'mixed'
 ```
 
-* AAFter successfully fine-tuning the model, you will have model metrics as png file as well as examples missclassifed by the mdoel for further investigation as a csv file
+* After successfully fine-tuning the model, you will have model metrics as png file as well as examples missclassifed by the mdoel for further investigation as a csv file
 
 ## Vizualization
 * run captumviz.py once you have fine-tuned the model and placed in model/ folder
